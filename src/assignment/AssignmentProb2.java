@@ -16,32 +16,6 @@ public class MaxMin {
         System.out.println("Enter the fourth number: ");
         d = Integer.parseInt(sc.nextLine());
 
-//        if(a > b && a > c && a > d){
-//            max = a;
-//        }
-//        else if(b > a && b > c && b > d){
-//            max = b;
-//        }
-//        else if(c > a && c > b && c > d){
-//            max = c;
-//        }
-//        else {
-//            max = d;
-//        }
-//
-//        if(a < b && a < c && a < d){
-//            min = a;
-//        }
-//        else if(b < a && b < c && b < d){
-//            min = b;
-//        }
-//        else if(c < a && c < b && c < d){
-//            min = c;
-//        }
-//        else {
-//            min = d;
-//        }
-
         max = Math.max(a, Math.max(b, Math.max(c, d)));
 
 
